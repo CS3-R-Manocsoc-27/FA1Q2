@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Rheane Ezrah F. Manocsoc">
+        <meta name="Section" content="Sodium">
+
+        <title>✨Colors✨</title>
+
+    </head>
+
+	<body>
+            <a href="#link1" id="link1">First Link</a>
+            <a href="#link2" id="link2">Second Link</a>
+	   <br>
+
+            <div id="div1">Div 1 Here :D</div>
+        <br>
+            <div id="div2">Div 2 Here :)</div>
+	</body>
+
+    <style>
+
+        #link1:link
+            {
+                color: orchid;
+                background-color: lightcyan;
+                text-decoration: none;
+            }
+    
+        #link1:hover 
+            {
+                color: indianred;
+                background-color: lavender;
+            }
+
+        #link1:active 
+            {
+                color: skyblue;
+                background-color: darkblue;
+            }
+
+        #link1:visited 
+            {
+                color: darkslategrey;
+                background-color: lightgreen;
+            }
+
+        #link2:link
+            {
+                color: green;
+                background-color: lightyellow;
+                text-decoration: none;
+            }
+
+        #link2:hover 
+            {
+                color: burlywood;
+                background-color: slategrey;
+            }
+
+        #link2:active 
+            {
+                color: azure;
+                background-color: darkcyan;
+            }
+        
+        #link2:visited 
+            {
+                color: rosybrown;
+                background-color: linen;
+            }
+
+        div#div1 
+            { 
+                padding: 10px; 
+                margin: 10px; border: 
+                2px solid black; 
+            }
+
+        div#div2 
+            { 
+                padding: 10px; 
+                margin: 10px; 
+                border: 2px solid black; 
+            }
+
+        
+        a#link1:target ~ div#div1 { background-color:lightgoldenrodyellow; color:darkgoldenrod; }
+
+        a#link2:target ~ div#div2 { background-color:lightblue; color:green; border: 10px dotted green; }
+
+    </style>
+
+</html>
+
